@@ -51,33 +51,37 @@ class UserController extends UserRepo{
         return $response;
     }
 
-    // public function processRequest(string $method, ?string $id): void {
-    //     if ($id) {
+    public function msgDefault() {
+      $msg = json_encode('Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser');
+      return $msg;
+    }
 
-    //         $this->processResourceRequest($method, $id);
 
-    //     } else {
+    public function crudActions() {
 
-    //         $this->processCollectionRequest($method);
-    //     }
-        
-    // }
+    switch (strtolower($_GET['action'])) {
+      case 'getall':
+        return self::getAllUsers(false)['users'];
+        break;
+      case 'adduser':
+        return self::insertUser($_GET['firstName'] ?? "User", $_GET['lastName'] ?? "UserLastname", $_GET['dateOfBirth'] ?? "1/1/2023" , $_GET['email'] ?? "exam@exam.com")['insertUser'];
+        break;
+      case 'getbyid':
+        return self::getUserById($_GET['id'])['userId'];
+        break;
+      case 'getbyname':
+        return self::getUserByName($_GET['name'])['user'];
+        break;
+      case 'updateuser':
+        return self::updateUser($_GET['id'] , $_GET['firstName'], $_GET['lastName'], $_GET['dateOfBirth'], $_GET['email'])['updateUser'];
+        break;
+      case 'deleteuser':
+        return self::deleteUserById($_GET['id'])['deleteUser'];
+        break;
 
-    // private function processResourceRequest(string $method, string $id): void {
-
-        
-    // }
-
-    // private function processCollectionRequest(string $method) {
-
-    //     switch($method) {
-    //         case "GET":
-    //             $this->getAllUsers();
-    //             break;
-    //     }
-        
-    // }
-    
-    
+      default:
+        return self::msgDefault();
+    }
+  }
     
 }

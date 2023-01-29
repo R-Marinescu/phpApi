@@ -58,7 +58,7 @@ class User{
 
 
    public function message() {
-    echo "salut now";
+    echo "salut";
    }
 
 }

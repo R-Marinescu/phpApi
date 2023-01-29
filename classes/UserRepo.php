@@ -12,10 +12,8 @@ class UserRepo extends Dbh{
         return self::$instance;
     }
 
-
     //Get All from users
-    public function getAll(): array {
-
+    protected function getAll(): array {
         $sql = "SELECT * FROM users";
         $stmt = $this->connect()->query($sql);
 
@@ -29,7 +27,7 @@ class UserRepo extends Dbh{
     }
 
     //Get user by name
-    public function getUserByName($name) {
+    protected function getUserByName($name) {
         $sql = "SELECT * FROM users WHERE firstName = ?";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$name]);
@@ -39,7 +37,7 @@ class UserRepo extends Dbh{
     }
 
     //Get user by Id
-    public function getUserById($id) {
+    protected function getUserById($id) {
         $sql = "SELECT * FROM users WHERE user_id = ?";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$id]);
@@ -49,7 +47,7 @@ class UserRepo extends Dbh{
     }
 
     //Inserts user to db
-    public function insertUser($firstName, $lastName, $dateOfBirth, $email) {
+    protected function insertUser($firstName, $lastName, $dateOfBirth, $email) {
         $sql = "INSERT INTO users(firstName, lastName, dateOfBirth, email) VALUES (?, ?, ?, ?)";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$firstName, $lastName, $dateOfBirth, $email]);
@@ -57,10 +55,8 @@ class UserRepo extends Dbh{
         return $stmt;
     }
 
-
-
     //update user id
-    public function updateUser($id, $firstName, $lastName, $dateOfBirth, $email) {
+    protected function updateUser($id, $firstName, $lastName, $dateOfBirth, $email) {
         $sql = "UPDATE users SET firstName = '$firstName', lastName = '$lastName',
         dateOfBirth = '$dateOfBirth', email = '$email' WHERE user_id = $id";
         $stmt = $this->connect()->prepare($sql);
@@ -71,7 +67,7 @@ class UserRepo extends Dbh{
 
     //delete user by id
 
-    public function deleteUserById($id) {
+    protected function deleteUserById($id) {
         $sql = "DELETE FROM users WHERE user_id = $id";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute();
