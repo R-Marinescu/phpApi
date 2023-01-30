@@ -1,32 +1,42 @@
 <?php
 include './includes/autoloader.php';
 
-
-
-
 $controller = new UserController;
 
-echo $controller->crudActions();
+
+
+
+$start = hrtime(true);
+try {
+    $result = $controller->crudActions();
+    echo $controller->response($result);
+    http_response_code(200);
+    echo json_encode(" Status 200, OK!");
+} catch (Exception $e) {
+    http_response_code(404);
+    echo "Error" . $e->getMessage();
+}
+$end = hrtime(true);
+$totalTime = $end - $start;
+$totalTime /= 1e+6;
+echo json_encode("block was running for " . $totalTime . " milliseconds");
 
 
 
 
-//   $getUserById = strtolower($_GET['userid']);
-//   echo $controller->getUserById($getUserById)['userId'];
-//  $getAllUsers = strtolower($_GET['getusers']);
-//  echo $controller->getAllUsers($getAllUsers)['users'];
-//  $getUserByName = strtolower($_GET['getusername']);
-//  echo $controller->getUserByName("Radu", $getUserByName)['user'];
-//$_Get['insertuser'] = $controller->insertUser("Radu ", "Mar", "11/12/1999", "Radu@outlook.com")['insertUser'];
-//echo $controller->insertUser("George", "Demian", "4/7/1999", "G@g")['insertUser'];
-//echo $controller->getUserById(strtolower($_GET['userid']))['userId'];
-//$createUser = $controller->insertUser("Stelios", "Pa", "23/5/2000", "S@gmail");
-//echo $_POST[$controller->insertUser("Stelios", "Pa", "23/5/2000", "S@gmail")];
-//echo $controller->getAllUsers($_GET[])['users'];
-//echo $controller->updateUser(388, "Billiam", "Tyson", "28/8/1992", "B@outlook")['updateUser'];
-//UserRepo::getInstance()->updateUser(70,"Mike", "Billson", "2/5/2000", "mike@gmail");
-//echo $controller->insertUser("George", "Bean", "2/6/2006", "G@gmail")['insertUser'];
 
 
+
+$timeNow = (new DateTime())->format('H:i:s.u');
+
+// for($i = 0;$i < 5; $i++) {
+//     for($j = 0; $j < 10; $j++){
+//         $timeNow = (new DateTime())->format('H:i:s.u');
+//         echo json_encode($controller->insertUser("John", "Doe", "3.11.2023", "loop@")['insertUser'] . " time:" . $timeNow);
+//         echo "<br>";
+//         usleep(600000);
+//     }
+//     UserRepo::getInstance()->ping()['ping'];
+// }
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 
-class UserRepo extends Dbh{
+class UserRepo extends Dbh {
 
     private static $instance;
 
@@ -13,8 +13,8 @@ class UserRepo extends Dbh{
     }
 
     //Get All from users
-    protected function getAll(): array {
-        $sql = "SELECT * FROM users";
+    public function getAll(): array {
+        $sql = "SELECT * FROM users limit 10";
         $stmt = $this->connect()->query($sql);
 
         $data = [];
@@ -27,7 +27,7 @@ class UserRepo extends Dbh{
     }
 
     //Get user by name
-    protected function getUserByName($name) {
+    public function getUserByName($name) {
         $sql = "SELECT * FROM users WHERE firstName = ?";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$name]);
@@ -37,7 +37,7 @@ class UserRepo extends Dbh{
     }
 
     //Get user by Id
-    protected function getUserById($id) {
+    public function getUserById($id) {
         $sql = "SELECT * FROM users WHERE user_id = ?";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$id]);
@@ -46,31 +46,44 @@ class UserRepo extends Dbh{
         return $results;
     }
 
-    //Inserts user to db
-    protected function insertUser($firstName, $lastName, $dateOfBirth, $email) {
+    // //Inserts user to db
+    // public function insertUser($firstName, $lastName, $dateOfBirth, $email) {
+    //     $sql = "INSERT INTO users(firstName, lastName, dateOfBirth, email) VALUES (?, ?, ?, ?)";
+    //     $stmt = $this->connect()->prepare($sql);
+    //     $stmt->execute([$firstName, $lastName, $dateOfBirth, $email]);
+        
+    //     return $stmt;
+    // }
+     //Inserts user to db
+     public function insertUser($firstName, $lastName, $dateOfBirth, $email) {
         $sql = "INSERT INTO users(firstName, lastName, dateOfBirth, email) VALUES (?, ?, ?, ?)";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$firstName, $lastName, $dateOfBirth, $email]);
+        $result = "inserted user with name: " . $firstName . " lastName: " . $lastName . " dateOfBirth: " . $dateOfBirth . " email: " . $email;
         
-        return $stmt;
+        return $result;
     }
 
     //update user id
-    protected function updateUser($id, $firstName, $lastName, $dateOfBirth, $email) {
+    public function updateUser($id, $firstName, $lastName, $dateOfBirth, $email) {
         $sql = "UPDATE users SET firstName = '$firstName', lastName = '$lastName',
         dateOfBirth = '$dateOfBirth', email = '$email' WHERE user_id = $id";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute();
+        $result = $id . "th/st user details updated to: Name: " .$firstName . " LastName: " . $lastName . " DOB: " . $dateOfBirth . " email: " . $email;
 
-        return $stmt;
+        return $result;
     }
 
     //delete user by id
 
-    protected function deleteUserById($id) {
+    public function deleteUserById($id) {
         $sql = "DELETE FROM users WHERE user_id = $id";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute();
+        $result = $id . "th/st user has been deleted";
+
+        return $result;
     }
 
 
