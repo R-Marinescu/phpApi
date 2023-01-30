@@ -6,22 +6,38 @@ $controller = new UserController;
 
 
 
+// $start = hrtime(true);
+// try {
+//     $result = $controller->crudActions();
+//     echo $controller->response($result);
+//     http_response_code(200);
+//     echo json_encode(" Status 200, OK!");
+// } catch (Exception $e) {
+//     http_response_code(404);
+//     echo "Error" . $e->getMessage();
+// }
+// $end = hrtime(true);
+// $totalTime = $end - $start;
+// $totalTime /= 1e+6;
+// echo json_encode("block was running for " . $totalTime . " milliseconds");
+
 $start = hrtime(true);
 try {
     $result = $controller->crudActions();
-    echo $controller->response($result);
+    $controllerOutput = $controller->response($result);
     http_response_code(200);
-    echo json_encode(" Status 200, OK!");
+    $httpCodeOutput = json_encode(" Status 200, OK!");
 } catch (Exception $e) {
     http_response_code(404);
-    echo "Error" . $e->getMessage();
+    $httpCodeOutput = "Error" . $e->getMessage();
 }
 $end = hrtime(true);
 $totalTime = $end - $start;
 $totalTime /= 1e+6;
-echo json_encode("block was running for " . $totalTime . " milliseconds");
-
-
+$timeOutput = json_encode("block was running for " . $totalTime . " milliseconds");
+$output = $controllerOutput . $httpCodeOutput . $timeOutput;
+error_log($output, 3, "/xampp/htdocs/output.log");
+echo $output;
 
 
 

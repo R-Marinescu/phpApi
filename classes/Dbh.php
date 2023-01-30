@@ -1,7 +1,7 @@
 <?php 
 
 class Dbh {
-     private $host = "localhost";
+    private $host = "localhost";
     private $user = "root";
     private $password = "";
     private $dbName = "phptest";

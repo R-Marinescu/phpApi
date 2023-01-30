@@ -46,9 +46,6 @@ class Test extends Dbh{
 
 
 
-
-
-
     //Get row/rows by name AND lastName from users
     public function getUsersStmt($firstName, $lastName): array {
         $sql = "SELECT * FROM users WHERE firstName = ? AND lastName =?";
