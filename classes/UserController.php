@@ -19,7 +19,6 @@ class UserController {
     return UserRepo::getInstance()->getUserById($_GET['id']);
   }
 
-
   //update user
   public function updateUser() {
     $result = UserRepo::getInstance()->updateUser($_GET['id'], $_GET['firstName'], $_GET['lastName'], $_GET['dateOfBirth'], $_GET['email']);
@@ -79,6 +78,7 @@ class UserController {
  
 
   public function response($response) {
+    
     $msg = json_encode($response, JSON_PRETTY_PRINT);
     return $msg;
   }
