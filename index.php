@@ -3,8 +3,6 @@ include './includes/autoloader.php';
 
 $controller = new UserController;
 
-
-
 // $timeNow = (new DateTime())->format('H:i:s.u');
 
 
@@ -37,27 +35,34 @@ $controller = new UserController;
 
 
 
-$timeNow = (new DateTime())->format('H:i:s.u');
-$start = hrtime(true);
-try {
-    $result = $controller->crudActions();
-    $controllerOutput = $controller->response($result);
-    http_response_code(200);
-    $httpCodeOutput = json_encode(" Status 200, OK!");
-} catch (Exception $e) {
-    http_response_code(404);
-    $httpCodeOutput = "Error" . $e->getMessage();
-}
-$end = hrtime(true);
-$totalTime = $end - $start;
-$totalTime /= 1e+6;
-$timeOutput = json_encode("block was running for " . $totalTime . " milliseconds " . " Date & Time now is " . $timeNow);
-$output = $controllerOutput . $httpCodeOutput . $timeOutput;
-error_log($output, 3, "./output.log");
-//echo $output;
+// $timeNow = (new DateTime())->format('H:i:s.u');
+// $start = hrtime(true);
+// $result = $controller->crudActions();
+// $controllerOutput = $controller->response($result);
+// $end = hrtime(true);
+// $totalTime = $end - $start;
+// $totalTime /= 1e+6;
+// $timeOutput = json_encode("block was running for " . $totalTime . " milliseconds " . " Date & Time now is " . $timeNow,);
 
+
+// $array[] = json_decode($controllerOutput, true);
+// $array[] = json_decode($timeOutput, true);
+
+// $result = json_encode($array, JSON_PRETTY_PRINT);
+// error_log($result, 3, "./output.log");
+// echo $result;
 
  
+
+
+
+
+
+
+
+
+
+
 
 $redis = new Redis(); 
 $redis->connect('127.0.0.1', 6379); 
@@ -67,14 +72,14 @@ $redis->connect('127.0.0.1', 6379);
 // echo "<br>";
 
 
-$some = serialize($output);
+// $some = serialize($result); 
+// $redis-> set('getAll', $some); //it will set anything you run at the moment including 'blank', requiers an if exists statment
 
-$redis-> set('getAll', $some);
-$some = $redis-> get('getAll');
+$some1 = $redis-> get('getAll');
 
-$array = unserialize($some);
+$array = unserialize($some1);
 
-echo ($some);
+echo $array;
 
 
 
@@ -82,7 +87,7 @@ echo ($some);
 // $redis->lpush("listTest", $httpCodeOutput);
 // $redis->lpush("listTest", $timeOutput);
 // $listTest = $redis->lrange("listTest", 0, -1);
-//print_r($listTest);
+// print_r($listTest);
 
 
 

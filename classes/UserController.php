@@ -16,7 +16,9 @@ class UserController {
 
   //get user by id
   public function getUserById() {
-    return UserRepo::getInstance()->getUserById($_GET['id']);
+    $result = UserRepo::getInstance()->getUserById($_GET['id']);
+    
+    return $result;
   }
 
   //update user
@@ -42,14 +44,14 @@ class UserController {
   }
 
   public function msgDefault()  {
-    $msg = "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser";
+    $msg = ['error' => '404', 'message' => "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"];
+    http_response_code(404);
     return $msg;
   }
 
   
 
   public function crudActions() {
-
     switch (strtolower($_GET['action'])) {
       case 'getall':
         return UserRepo::getInstance()->getAll();

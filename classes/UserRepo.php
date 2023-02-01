@@ -46,14 +46,7 @@ class UserRepo extends Dbh {
         return $results;
     }
 
-    // //Inserts user to db
-    // public function insertUser($firstName, $lastName, $dateOfBirth, $email) {
-    //     $sql = "INSERT INTO users(firstName, lastName, dateOfBirth, email) VALUES (?, ?, ?, ?)";
-    //     $stmt = $this->connect()->prepare($sql);
-    //     $stmt->execute([$firstName, $lastName, $dateOfBirth, $email]);
-        
-    //     return $stmt;
-    // }
+ 
      //Inserts user to db
      public function insertUser($firstName, $lastName, $dateOfBirth, $email) {
         $sql = "INSERT INTO users(firstName, lastName, dateOfBirth, email) VALUES (?, ?, ?, ?)";
@@ -109,18 +102,6 @@ class UserRepo extends Dbh {
 //         return $stmt;
 //     }
 
-
-    // //Get row by name AND lastName from users
-    // public function getUserByNameAndLastName($firstName, $lastName): array {
-    //     $sql = "SELECT * FROM users WHERE firstName = ? AND lastName =? LIMIT 1";
-    //     $stmt = $this->connect()->prepare($sql);
-    //     $res = $stmt->execute([$firstName, $lastName]);
-    //     $res = $res->fetchObj();
-    //     $data = ["firstname" => $res->firstName];
-
-       
-    //     return $data;
-    // }
 
    
 }
