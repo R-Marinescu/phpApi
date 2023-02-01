@@ -17,9 +17,17 @@ class UserController {
   //get user by id
   public function getUserById() {
     $result = UserRepo::getInstance()->getUserById($_GET['id']);
-    
-    return $result;
+    $result_str = json_encode($result);
+    $message = $result_str . " status 200";
+
+    return $message;
   }
+
+  // public function getUserById() {
+  //   $result = UserRepo::getInstance()->getUserById($_GET['id']);
+  //   $message = $result . " status 200";
+  //   return array("message"=> $message);
+  // }
 
   //update user
   public function updateUser() {
@@ -44,14 +52,16 @@ class UserController {
   }
 
   public function msgDefault()  {
-    $msg = ['error' => '404', 'message' => "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"];
-    http_response_code(404);
+    $msg = "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser";
     return $msg;
   }
 
   
 
   public function crudActions() {
+    if (!isset($_GET['action'])) {
+      return self::msgDefault();
+    }
     switch (strtolower($_GET['action'])) {
       case 'getall':
         return UserRepo::getInstance()->getAll();

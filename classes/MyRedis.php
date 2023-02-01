@@ -1,14 +1,18 @@
 <?php
 
-class MyRedis {
-    public $instance;
+// class MyRedis {
+//     public $instance;
 
 
-    // public function redisInstance($instance) {
-    //     if(is_null( $this->instance)) {
-    //         $this->instance = new Redis();
-    //         $this->instance->connect('127.0.0.1', 6379);
-    //     }
-    //     return $instance;
-    // }
-}
+//     public function redisInstance() {
+//         if(is_null( $this->instance)) {
+//             $this->instance = new Redis();
+//             $this->instance->connect('127.0.0.1', 6379);
+//         }
+//         return $this->instance;
+//     }
+// }
+
+//use this
+// $redis = new MyRedis();
+// $redisInstance = $redis->redisInstance();

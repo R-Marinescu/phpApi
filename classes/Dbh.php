@@ -3,17 +3,26 @@
 class Dbh {
     private $host = "localhost";
     private $user = "root";
-    private $password = "jsd67FGa";
-    private $dbName = "radu_db";
-
+    private $password = "";
+    private $dbName = "phptest";
+    private $pdo = null;
 
 
     protected function connect() {
+        if(is_null($this->pdo)) {
         $dsn = 'mysql:host=' . $this->host .';dbname=' . $this->dbName;
-        $pdo = new PDO($dsn, $this->user, $this->password);
-        $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-        return $pdo;
+        $this->pdo = new PDO($dsn, $this->user, $this->password);
+        $this->pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+        }
+        return $this->pdo;
     }
+
+    // protected function connect() {
+    //     $dsn = 'mysql:host=' . $this->host .';dbname=' . $this->dbName;
+    //     $pdo = new PDO($dsn, $this->user, $this->password);
+    //     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+    //     return $pdo;
+    // }
  
     public function ping() {
         try {
@@ -30,7 +39,5 @@ class Dbh {
 
    
 
-    // $this->connect()->query('SELECT 1');
-    //$stmt = $this->connect()->query('SELECT * FROM users WHERE user_id = 1');
 }
 

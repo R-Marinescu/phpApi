@@ -520,4 +520,998 @@
         }
     ],
     "block was running for 1.19722 milliseconds  Date & Time now is 17:58:04.769661"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3612 milliseconds  Date & Time now is 19:58:49.499455"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3315 milliseconds  Date & Time now is 19:59:33.596735"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3111 milliseconds  Date & Time now is 19:59:50.561588"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3688 milliseconds  Date & Time now is 19:59:51.428832"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3037 milliseconds  Date & Time now is 19:59:51.619932"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3762 milliseconds  Date & Time now is 19:59:52.412242"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.5793 milliseconds  Date & Time now is 20:00:50.039399"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.4256 milliseconds  Date & Time now is 20:02:38.903245"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 4.5303 milliseconds  Date & Time now is 20:02:49.629951"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0059 milliseconds  Date & Time now is 20:03:04.273737"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0055 milliseconds  Date & Time now is 20:03:07.742408"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3587 milliseconds  Date & Time now is 20:03:13.413716"
+][
+    "Array status 200",
+    "block was running for 3.0563 milliseconds  Date & Time now is 20:11:47.911195"
+][
+    {
+        "message": "Array status 200"
+    },
+    "block was running for 25.4985 milliseconds  Date & Time now is 20:13:48.630878"
+][
+    {
+        "message": "Array status 200"
+    },
+    "block was running for 2.6482 milliseconds  Date & Time now is 20:24:13.793059"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 2.0533 milliseconds  Date & Time now is 20:24:26.475882"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0058 milliseconds  Date & Time now is 20:24:34.717839"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0059 milliseconds  Date & Time now is 20:24:38.148703"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0053 milliseconds  Date & Time now is 20:24:40.828100"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3844 milliseconds  Date & Time now is 20:24:45.150400"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3472 milliseconds  Date & Time now is 20:26:38.999561"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2968 milliseconds  Date & Time now is 20:26:39.509234"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3382 milliseconds  Date & Time now is 20:26:40.657874"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3094 milliseconds  Date & Time now is 20:26:44.482372"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.303 milliseconds  Date & Time now is 20:26:44.657649"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.285 milliseconds  Date & Time now is 20:26:44.825840"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2861 milliseconds  Date & Time now is 20:26:44.978377"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.537 milliseconds  Date & Time now is 20:27:04.639300"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2965 milliseconds  Date & Time now is 20:27:05.077602"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2896 milliseconds  Date & Time now is 20:27:05.228989"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3135 milliseconds  Date & Time now is 20:27:07.095031"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3008 milliseconds  Date & Time now is 20:27:07.262752"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2886 milliseconds  Date & Time now is 20:27:07.428179"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3681 milliseconds  Date & Time now is 20:27:07.566236"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3131 milliseconds  Date & Time now is 20:27:09.010345"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.4466 milliseconds  Date & Time now is 20:27:25.925446"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2761 milliseconds  Date & Time now is 20:27:26.388230"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2898 milliseconds  Date & Time now is 20:27:26.551572"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3239 milliseconds  Date & Time now is 20:27:26.727492"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2957 milliseconds  Date & Time now is 20:27:26.908897"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3069 milliseconds  Date & Time now is 20:27:27.080770"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.5753 milliseconds  Date & Time now is 20:27:37.609149"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3048 milliseconds  Date & Time now is 20:27:38.076326"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.3059 milliseconds  Date & Time now is 20:27:38.244802"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.2889 milliseconds  Date & Time now is 20:27:38.394962"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0069 milliseconds  Date & Time now is 20:28:00.518256"
+][
+    {
+        "error": "404",
+        "message": "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser"
+    },
+    "block was running for 0.0057 milliseconds  Date & Time now is 20:28:29.349809"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0043 milliseconds  Date & Time now is 20:28:45.889900"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0046 milliseconds  Date & Time now is 20:29:21.815149"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.3789 milliseconds  Date & Time now is 20:30:01.070140"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 2.0458 milliseconds  Date & Time now is 21:01:14.096739"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 21.8311 milliseconds  Date & Time now is 21:01:20.319100"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 2.095 milliseconds  Date & Time now is 21:01:31.958828"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 15.25 milliseconds  Date & Time now is 21:01:41.828080"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 2.0156 milliseconds  Date & Time now is 21:01:57.748641"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 2.034 milliseconds  Date & Time now is 21:01:58.483156"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 26.1618 milliseconds  Date & Time now is 21:01:59.199517"
+][
+    {
+        "user_id": "1",
+        "firstName": "Vasili",
+        "lastName": "papas",
+        "dateOfBirth": "4\/7\/1990",
+        "email": "Va@outlook.com"
+    },
+    "block was running for 1.9857 milliseconds  Date & Time now is 21:01:59.773849"
+][
+    {
+        "message": "{\"user_id\":\"1\",\"firstName\":\"Vasili\",\"lastName\":\"papas\",\"dateOfBirth\":\"4\\\/7\\\/1990\",\"email\":\"Va@outlook.com\"} status 200"
+    },
+    "block was running for 2.3642 milliseconds  Date & Time now is 21:06:04.730123"
+][
+    "{\"user_id\":\"1\",\"firstName\":\"Vasili\",\"lastName\":\"papas\",\"dateOfBirth\":\"4\\\/7\\\/1990\",\"email\":\"Va@outlook.com\"} status 200",
+    "block was running for 2.2688 milliseconds  Date & Time now is 21:08:14.241364"
+][
+    null,
+    "block was running for 2.1313 milliseconds  Date & Time now is 21:09:19.446875"
+][
+    "{\"user_id\":\"1\",\"firstName\":\"Vasili\",\"lastName\":\"papas\",\"dateOfBirth\":\"4\\\/7\\\/1990\",\"email\":\"Va@outlook.com\"} status 200",
+    "block was running for 1.9507 milliseconds  Date & Time now is 21:09:37.923295"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0042 milliseconds  Date & Time now is 21:19:50.194574"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0041 milliseconds  Date & Time now is 21:19:56.910193"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0036 milliseconds  Date & Time now is 21:20:00.096939"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 2.6785 milliseconds  Date & Time now is 21:20:12.929567"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0048 milliseconds  Date & Time now is 21:20:18.722745"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0037 milliseconds  Date & Time now is 21:22:00.825104"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0038 milliseconds  Date & Time now is 21:22:03.688035"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0044 milliseconds  Date & Time now is 21:22:04.743376"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 2.3425 milliseconds  Date & Time now is 21:22:28.830002"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0052 milliseconds  Date & Time now is 21:22:33.270868"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0046 milliseconds  Date & Time now is 21:22:35.845059"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.4378 milliseconds  Date & Time now is 21:22:39.205803"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0046 milliseconds  Date & Time now is 21:26:17.635100"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 28.2084 milliseconds  Date & Time now is 21:26:28.093993"
+][
+    "{\"user_id\":\"1\",\"firstName\":\"Vasili\",\"lastName\":\"papas\",\"dateOfBirth\":\"4\\\/7\\\/1990\",\"email\":\"Va@outlook.com\"} status 200",
+    "block was running for 2.6363 milliseconds  Date & Time now is 21:26:39.086514"
+][
+    "{\"user_id\":\"1\",\"firstName\":\"Vasili\",\"lastName\":\"papas\",\"dateOfBirth\":\"4\\\/7\\\/1990\",\"email\":\"Va@outlook.com\"} status 200",
+    "block was running for 2.1675 milliseconds  Date & Time now is 21:35:28.589415"
+][
+    "{\"user_id\":\"1\",\"firstName\":\"Vasili\",\"lastName\":\"papas\",\"dateOfBirth\":\"4\\\/7\\\/1990\",\"email\":\"Va@outlook.com\"} status 200",
+    "block was running for 2.0383 milliseconds  Date & Time now is 21:35:37.474239"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 2.2165 milliseconds  Date & Time now is 21:35:42.324338"
+][
+    [
+        {
+            "user_id": "1",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "2",
+            "firstName": "Vasili",
+            "lastName": "papas",
+            "dateOfBirth": "4\/7\/1990",
+            "email": "Va@outlook.com"
+        },
+        {
+            "user_id": "3",
+            "firstName": "Stelios",
+            "lastName": "pav",
+            "dateOfBirth": "3\/2\/1995",
+            "email": "Stelios@outlook.com"
+        },
+        {
+            "user_id": "4",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "5",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "7",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "8",
+            "firstName": "Jo",
+            "lastName": "Bo",
+            "dateOfBirth": "1\/1\/1990",
+            "email": "Jo@g"
+        },
+        {
+            "user_id": "9",
+            "firstName": "Radu ",
+            "lastName": "Mar",
+            "dateOfBirth": "11\/12\/1999",
+            "email": "Radu@outlook.com"
+        },
+        {
+            "user_id": "11",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        },
+        {
+            "user_id": "12",
+            "firstName": "Nadia",
+            "lastName": "Marinescu",
+            "dateOfBirth": "1\/1\/2001",
+            "email": "Na@gmail.com"
+        }
+    ],
+    "block was running for 21.5666 milliseconds  Date & Time now is 21:36:00.202111"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0049 milliseconds  Date & Time now is 21:37:17.996990"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0047 milliseconds  Date & Time now is 21:37:21.796939"
+][
+    "Methods available: getall, adduser, getbyid, getbyname, updateuser, deleteuser",
+    "block was running for 0.0065 milliseconds  Date & Time now is 21:48:16.773076"
 ]

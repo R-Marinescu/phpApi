@@ -35,37 +35,41 @@ $controller = new UserController;
 
 
 
-// $timeNow = (new DateTime())->format('H:i:s.u');
-// $start = hrtime(true);
-// $result = $controller->crudActions();
-// $controllerOutput = $controller->response($result);
-// $end = hrtime(true);
-// $totalTime = $end - $start;
-// $totalTime /= 1e+6;
-// $timeOutput = json_encode("block was running for " . $totalTime . " milliseconds " . " Date & Time now is " . $timeNow,);
+$timeNow = (new DateTime())->format('H:i:s.u');
+$start = hrtime(true);
+$result = $controller->crudActions();
+$controllerOutput = $controller->response($result);
+$end = hrtime(true);
+$totalTime = $end - $start;
+$totalTime /= 1e+6;
+$timeOutput = json_encode("block was running for " . $totalTime . " milliseconds " . " Date & Time now is " . $timeNow,);
 
 
-// $array[] = json_decode($controllerOutput, true);
-// $array[] = json_decode($timeOutput, true);
+$array[] = json_decode($controllerOutput, true);
+$array[] = json_decode($timeOutput, true);
 
-// $result = json_encode($array, JSON_PRETTY_PRINT);
-// error_log($result, 3, "./output.log");
-// echo $result;
+$result = json_encode($array, JSON_PRETTY_PRINT);
+error_log($result, 3, "./output.log");
+echo $result;
 
  
 
 
+// try {
+//     $result = $controller->crudActions();
+//     http_response_code(200);
+//     echo json_encode(array("Success" => $result));
+// } catch (Exception $e) {
+//     http_response_code(404);
+//     echo json_encode(array("Error" => "Action not found"));
+// }
 
-//somechanges
 
 
 
 
-
-
-
-$redis = new Redis(); 
-$redis->connect('127.0.0.1', 6379); 
+// $redis = new Redis(); 
+// $redis->connect('127.0.0.1', 6379); 
 
 // echo "Connection to server sucessfully"; 
 // echo "Server is running: " . $redis->ping(); 
@@ -75,11 +79,11 @@ $redis->connect('127.0.0.1', 6379);
 // $some = serialize($result); 
 // $redis-> set('getAll', $some); //it will set anything you run at the moment including 'blank', requiers an if exists statment
 
-$some1 = $redis-> get('getAll');
+// $some1 = $redis-> get('getAll');
 
-$array = unserialize($some1);
+// $array = unserialize($some1);
 
-echo $array;
+// echo $array;
 
 
 
