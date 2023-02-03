@@ -1,0 +1,65 @@
+{"status":200,"message":"All good","time":"3.10","data":[{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"},{"user_id":"3","firstName":"Radu","lastName":"Mar","dateOfBirth":"12\/4\/1995","email":"R@gg"},{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"},{"user_id":"5","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"},{"user_id":"6","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"}]}
+{"status":200,"message":"All good","time":"2.14","data":[{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"},{"user_id":"3","firstName":"Radu","lastName":"Mar","dateOfBirth":"12\/4\/1995","email":"R@gg"},{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"},{"user_id":"5","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"},{"user_id":"6","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"}]}
+{"status":200,"message":"All good","time":"1.94","data":[{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"},{"user_id":"3","firstName":"Radu","lastName":"Mar","dateOfBirth":"12\/4\/1995","email":"R@gg"},{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"},{"user_id":"5","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"},{"user_id":"6","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"}]}
+{"status":200,"message":"All good","time":"2.28","data":[{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"},{"user_id":"3","firstName":"Radu","lastName":"Mar","dateOfBirth":"12\/4\/1995","email":"R@gg"},{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"},{"user_id":"5","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"},{"user_id":"6","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"}]}
+{"status":200,"message":"All good","time":"1.79","data":{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"}}
+{"status":200,"message":"All good","time":"9.40","data":{"0":"Redis server","user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"}}
+{"status":200,"message":"All good","time":"1.61","data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":"1.99","data":[{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"},{"user_id":"3","firstName":"Radu","lastName":"Mar","dateOfBirth":"12\/4\/1995","email":"R@gg"},{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"},{"user_id":"5","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"},{"user_id":"6","firstName":"Denis","lastName":"Johnson","dateOfBirth":"24.5.2002","email":"Denis@gmail.com"}]}
+{"status":200,"message":"All good","time":"2.06","data":{"user_id":"4","firstName":"Andrew","lastName":"doe","dateOfBirth":"12\/4\/1995","email":"A@gg"}}
+{"status":404,"message":"No data returned","time":0,"data":[]}
+{"status":200,"message":"All good","time":0,"data":[]}
+{"status":200,"message":"All good","time":0,"data":false}
+{"status":200,"message":"Not found ID","time":0,"data":false}
+{"status":200,"message":"Not found ID","time":0,"data":[]}
+{"status":200,"message":"Not found ID","time":0.1,"data":[]}
+{"status":200,"message":"Not found ID","time":0.1,"data":[]}
+{"status":200,"message":"Not found ID","time":0.1,"data":[]}
+{"status":200,"message":"Not found ID","time":0,"data":[]}
+{"status":200,"message":"Not found ID","time":0,"data":[]}
+{"status":200,"message":"Not found ID","time":0,"data":[]}
+{"status":200,"message":"Not found ID","time":0,"data":[]}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"0":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com","source":"Redis server"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":[{"source":"Redis server"},{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}]}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":[{"source":"Redis server"},{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}]}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}
+{"status":200,"message":"All good","time":0,"data":{"source":"Redis server","0":{"source":"Redis server"},"user_id":"1","firstName":"Stelios","lastName":"Pav","dateOfBirth":"11\/5\/1999","email":"S@gmail.com"}}

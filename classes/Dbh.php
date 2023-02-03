@@ -3,26 +3,35 @@
 class Dbh {
     private $host = "localhost";
     private $user = "root";
-    private $password = "";
-    private $dbName = "phptest";
+    private $password = "jsd67FGa";
+    private $dbName = "radu_db";
     private $pdo = null;
 
 
-    protected function connect() {
-        if(is_null($this->pdo)) {
-        $dsn = 'mysql:host=' . $this->host .';dbname=' . $this->dbName;
-        $this->pdo = new PDO($dsn, $this->user, $this->password);
-        $this->pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+    public function connect() {
+        try {
+            
+            if(is_null($this->pdo)) {
+            $dsn = 'mysql:host=' . $this->host .';dbname=' . $this->dbName;
+            $this->pdo = new PDO($dsn, $this->user, $this->password);
+            $this->pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+                $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            }
+            return $this->pdo;
+        } catch (PDOException $e) {
+            echo json_encode("Connection failed: more info -> " . $e->getMessage());
         }
-        return $this->pdo;
     }
 
-    // protected function connect() {
+    // public function connect() {
+    //     if(is_null($this->pdo)) {
     //     $dsn = 'mysql:host=' . $this->host .';dbname=' . $this->dbName;
-    //     $pdo = new PDO($dsn, $this->user, $this->password);
-    //     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-    //     return $pdo;
+    //     $this->pdo = new PDO($dsn, $this->user, $this->password);
+    //     $this->pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+    //     }
+    //     return $this->pdo;
     // }
+
  
     public function ping() {
         try {
